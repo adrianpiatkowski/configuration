@@ -1,2 +1,10 @@
 server:
   port: 7777
+
+accounts:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/konta
+    username: postgres
+    password: admin
+    ddl-mode: update
+  allow-get-accounts: true
