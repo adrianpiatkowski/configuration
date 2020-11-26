@@ -1,0 +1,7 @@
+cards:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/karty
+    username: postgres
+    password: admin
+    ddl-mode: update
+  allow-get-cards: true
